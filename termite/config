@@ -1,0 +1,98 @@
+[options]
+allow_bold = false
+#audible_bell = false
+bold_is_bright = true
+cell_height_scale = 1.0
+cell_width_scale =  1.0
+clickable_url = true
+#clickable_url_ctrl = false
+dynamic_title = true
+#font =  MonoLisa Nerd Font Regular 11
+font = cozette medium 10
+#fullscreen = true
+#icon_name = terminal
+#mouse_autohide = false
+#scroll_on_output = false
+scroll_on_keystroke = true
+word_char_exceptions = -=&#:/.?@+~_%;
+# Length of the scrollback buffer, 0 disabled the scrollback buffer
+# and setting it to a negative value means "infinite scrollback"
+scrollback_lines = 10000
+#search_wrap = true
+#urgent_on_bell = false
+#hyperlinks = false
+
+padding = 10
+
+# $BROWSER is used by default if set, with xdg-open as a fallback
+browser = xdg-open
+
+# "system", "on" or "off"
+cursor_blink = system
+
+# "block", "underline" or "ibeam"
+cursor_shape = ibeam
+
+# Hide links that are no longer valid in url select overlay mode
+#filter_unmatched_urls = true
+
+# Emit escape sequences for extra modified keys
+#modify_other_keys = false
+
+# set size hints for the window
+#size_hints = false
+
+# "off", "left" or "right"
+scrollbar = off
+
+# Whether to prefer using the GTK dark theme variant.
+gtk_dark_theme = true
+
+# Enable smart copy. ^C will copy if text has been selected. ^V will paste. It
+# is no longer possible to send a ^V to the running program when this option is
+# enabled.
+#smart_copy = false
+
+
+[colors]
+
+# special
+foreground      = #CDD6F4
+foreground_bold = #CDD6F4
+cursor          = #89dceb
+background      = #1E1E2E
+
+# black
+color0  = #282c34
+color8  = #585B70
+
+# red
+color1  = #F38BA8
+color9  = #F38BA8
+
+# green
+color2  = #A6E3A1
+color10 = #A6E3A1
+
+# yellow
+color3  = #F9E2AF
+color11 = #F9E2AF
+
+# blue
+color4  = #89B4FA
+color12 = #89B4FA
+
+# magenta
+color5  = #F5C2E7
+color13 = #F5C2E7
+
+# cyan
+color6  = #94E2D5
+color14 = #94E2D5
+
+# white
+color7  = #BAC2DE
+color15 = #A6ADC8
+
+
+
