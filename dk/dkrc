@@ -52,19 +52,19 @@ fi
 	#       try embracing the default behaviour and allow access to any workspace from any monitor
 	#       you might end up liking it :)
 	#
-	 mon0='LVDS1'
-	 mon1='HDMI1'
+	 mon1='LVDS1'
+	 mon2='HDMI1'
 	 dkcmd set static_ws=true \
-	 ws=1  mon=$mon0 \
-	 ws=2  mon=$mon1 \
-	 ws=3  mon=$mon0 \
-	 ws=4  mon=$mon1 \
-	 ws=5  mon=$mon0 \
-	 ws=6  mon=$mon1 \
-	 ws=7  mon=$mon0 \
-	 ws=8  mon=$mon1 \
-	 ws=9  mon=$mon0 \
-	 ws=10 mon=$mon1
+	 ws=1  mon=LVDS1 \
+	 ws=2  mon=HDMI1 \
+	 ws=3  mon=HDMI1 \
+	 ws=4  mon=HDMI1 \
+	 ws=5  mon=LVDS1 \
+	 ws=6  mon=HDMI1 \
+	 ws=7  mon=LVDS1 \
+	 ws=8  mon=HDMI1 \
+	 ws=9  mon=LVDS1 \
+	 ws=10 mon=LVDS1 \
 
 
 	# global settings
